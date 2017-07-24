@@ -141,6 +141,56 @@ a:hover{
 
 }
 
+.sidebar {
+  background-color:#ebd7d0;
+  width: 150px;
+  height: 100vh;
+  position:fixed;
+  left:0;
+  top:0;
+  text-align: center;
+
+}
+
+.sidebar ul{
+  padding: 0;
+}
+
+.sidebar li{
+  list-style: none;
+  text-decoration: none;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+.sidebar a{
+  color:#6B5F5C;
+  font-size: 20px;
+}
+
+
+.sidebar a:hover{
+  color:white;
+}
+
+.page-content{
+  margin-left: 150px;
+
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .page-content{
+    margin-left: 0px;
+  }
+  .sidebar {
+    display: none;
+  }
+}
+
+
 
 
 

@@ -8,78 +8,92 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="card-white text-center ">
-    <div class="thumbnail-container">
-      <div class="thumbnail img-circle">
-        <video width="200" height="200" autoplay loop muted >
-          <source src="images/amandita.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
+  <div class="sidebar">
+    <ul>
+      <li>
+        <a href="#summary"><i class="fa fa-info-circle" aria-hidden="true"></i></a>
+      </li>
+      <li>
+        <a href="#artists"><i class="fa fa-paint-brush" aria-hidden="true"></i></a>
+      </li>
+      <li>
+        <a href="#footer"><i class="fa fa-life-ring" aria-hidden="true"></i></a>
+      </li>
+    </ul>
+  </div>
+  <div class="page-content">
+    <div class="card-white text-center" id="summary">
+      <div class="thumbnail-container">
+        <div class="thumbnail img-circle">
+          <video width="200" height="200" autoplay loop muted >
+            <source src="images/amandita.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
       </div>
+      <h1>Amanda Orbe</h1>
+      <h2>Architect and fullstack develloper</h2>
+      <p width= "400px">After beeing working as an architect I decided I needed to change my career for something more flexible and joined  <strong>le wagon</strong> </p>
+      <a href="#" class="btn-black"> See it for yourself!</a>
     </div>
-    <h1>Amanda Orbe</h1>
-    <h2>Architect and fullstack develloper</h2>
-    <p width= "400px">After beeing working as an architect I decided I needed to change my career for something more flexible and joined  <strong>le wagon</strong> </p>
-    <a href="#" class="btn-black"> See it for yourself!</a>
-  </div>
-  <div class="card-white">
-    <ul class="list-inline">
-      <li>
-        <a href="https://www.facebook.com/amanda.orbe.3" target="_blank"> <i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/amandaorbe/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
-      </li>
-      <li>
-        <a href="https://github.com/AmandaOrbe" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i>Github</a>
-      </li>
-    </ul>
-  </div>
-  <div class="card-white">
-  <h2>My Favorite Artists</h2>
-    <table>
-      <tbody>
-        <tr >
-          <td>
-            <img src="images/constant.jpg" alt="Constant" class="img200px">
+    <div class="card-white">
+      <ul class="list-inline">
+        <li>
+          <a href="https://www.facebook.com/amanda.orbe.3" target="_blank"> <i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/amandaorbe/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
+        </li>
+        <li>
+          <a href="https://github.com/AmandaOrbe" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i>Github</a>
+        </li>
+      </ul>
+    </div>
+    <div class="card-white" id="artists">
+    <h2>My Favorite Artists</h2>
+      <table>
+        <tbody>
+          <tr >
             <td>
-              <h3>Constant</h3>
-              <p>Constant Anton Nieuwenhuys (21 July 1920 – 1 August 2005), better known as Constant, was a Dutch painter, sculptor, graphic artist, author and musician.</p>
+              <img src="images/constant.jpg" alt="Constant" class="img200px">
+              <td>
+                <h3>Constant</h3>
+                <p>Constant Anton Nieuwenhuys (21 July 1920 – 1 August 2005), better known as Constant, was a Dutch painter, sculptor, graphic artist, author and musician.</p>
+              </td>
             </td>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src="images/gego.jpg" alt="Gego" class="img200px">
+          </tr>
+          <tr>
             <td>
-              <h3>Gego</h3>
-              <p>Gertrud "Gego" Louise Goldschmidt , was a modern Venezuelan artist and sculptor. Gego's most popular works were produced in the 1960s and 1970s, during the height of popularity of Geometric abstract art and Kinetic Art.</p>
+              <img src="images/gego.jpg" alt="Gego" class="img200px">
+              <td>
+                <h3>Gego</h3>
+                <p>Gertrud "Gego" Louise Goldschmidt , was a modern Venezuelan artist and sculptor. Gego's most popular works were produced in the 1960s and 1970s, during the height of popularity of Geometric abstract art and Kinetic Art.</p>
+              </td>
             </td>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src="images/saraceno.jpg" alt="Saraceno" class="img200px">
+          </tr>
+          <tr>
             <td>
-              <h3>Tomás Saraceno</h3>
-              <p>Tomás Saraceno (San Miguel de Tucumán, 1973) is a contemporary artist. He is best known for his large-scale, interactive installations and floating sculptures, and for his interdisciplinary approach to art.
-              </p>
+              <img src="images/saraceno.jpg" alt="Saraceno" class="img200px">
+              <td>
+                <h3>Tomás Saraceno</h3>
+                <p>Tomás Saraceno (San Miguel de Tucumán, 1973) is a contemporary artist. He is best known for his large-scale, interactive installations and floating sculptures, and for his interdisciplinary approach to art.
+                </p>
+              </td>
             </td>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card-white text-center" id="footer">
+      <h2>About this page</h2>
+      <p>This page was coded during Le Wagon</p>
+      <ul class="list-inline">
+        <li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-share" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
   </div>
-  <div class="card-white text-center">
-    <h2>About this page</h2>
-    <p>This page was coded during Le Wagon</p>
-    <ul class="list-inline">
-      <li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-      <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-      <li><a href="#"><i class="fa fa-share" aria-hidden="true"></i></a></li>
-    </ul>
-  </div>
-
 
 </body>
 </html>
